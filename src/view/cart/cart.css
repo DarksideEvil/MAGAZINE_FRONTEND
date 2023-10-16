@@ -1,0 +1,124 @@
+.buy {
+    background: #5469d4;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    border-radius: 4px;
+    border: 0;
+    padding: 12px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    display: block;
+    transition: all 0.2s ease;
+    box-shadow: 0px 4px 5.5px 0px rgba(0, 0, 0, 0.07);
+    width: 100%;
+  }
+  
+  .buy:hover {
+    filter: contrast(115%);
+  }
+  
+  .buy:disabled {
+    opacity: 0.5;
+    cursor: default;
+  }
+
+.plus_minus
+{
+    text-align: center;
+    margin: 12px 0;
+    background-color: #ebebeb;
+    width: 55%;
+    align-self: center;
+    border-radius: 7px;
+}
+
+.qty
+{
+    display: inline-block;
+    padding: 0 5px;
+    margin: 0 15px;
+}
+
+.cancel
+{
+    padding-top: 15px;
+}
+
+.like_btn
+{
+    margin-right: 10px;
+    color: #9e9b98;
+}
+
+.like_btn:focus
+{
+    color: red;
+}
+
+.cancel_btn
+{
+    color: #9e9b98;
+}
+
+.empty_cart
+{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.empty_cart .cart_svg
+{
+    width: 350px;
+    cursor: pointer;
+}
+
+.itogo
+{
+    border-radius: 20px;
+    padding: 1px 20px 20px 20px;
+    background: #ebebeb;
+}
+
+.item_qty
+{
+    border-bottom: 1px solid #a5a5a5;
+    margin: 15px 0;
+}
+
+.total_price
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.promocode
+{
+    margin: 15px 0;
+    text-align: center;
+}
+
+.promocode .promocode_inp
+{
+    width: 95%;
+    padding: 10px 5px;
+    border-radius: 10px;
+    outline-color: #8b8b8b;
+}
+
+.promo_submitter
+{
+    margin-left: -78px;
+    height: 25px;
+    width: 70px;
+    background: black;
+    color: white;
+    border-radius: 7px;
+}
+
+@media (max-width: 767.98px) {
+    .border-sm-start-none {
+      border-left: none !important;
+    }
+  }

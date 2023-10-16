@@ -1,0 +1,11 @@
+.not_found_place
+{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.not_found_img
+{
+    width: 350px;
+    cursor: pointer;
+}

@@ -1,0 +1,35 @@
+.navbar
+{
+    background-color: black;
+    top: 0;
+    position: sticky;
+    z-index: 50;
+}
+
+li
+{
+    list-style: none;
+}
+
+.navbar-brand img
+{
+    width: 50px;
+}
+
+.navbar-collapse
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logout_btn
+{
+    background-color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.logout_btn:hover
+{
+    color: rgb(67, 67, 67);
+}

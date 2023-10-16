@@ -1,0 +1,11 @@
+.edit_place
+{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 5px 10px 0;
+}
+
+.edit_btn
+{
+    margin-right: 10px;
+}

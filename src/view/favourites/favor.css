@@ -1,0 +1,42 @@
+.none_favorites
+{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.none_favorites .favor_img
+{
+    width: 350px;
+    cursor: pointer;
+}
+
+.favor_header
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.remove_icn
+{
+    cursor: pointer;
+}
+
+/* phones */
+@media (max-width: 576px) {
+    .remove_icn
+    {
+        margin-right: 30px;
+    }
+    .favor_title
+    {
+        margin-left: 20px;
+    }
+}
+
+/* laptops */
+@media (min-width: 992px) {
+    .remove_icn
+    {
+        margin-right: 90px;
+    }
+}

@@ -1,0 +1,151 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font: 0.8em YS Text,Arial,Helvetica,sans-serif;
+}
+
+.navbar
+{
+    background-color: white !important;
+    top: 0;
+    position: sticky;
+    z-index: 50;
+}
+
+li
+{
+    list-style: none;
+}
+
+.navbar-brand img
+{
+    width: 50px;
+}
+
+.navbar-collapse
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-inline
+{
+    display: flex;
+}
+
+.btn_search
+{
+    background-color: #fc0;
+    appearance: none;
+    border: none;
+    font-family: YS Text,Helvetica,Arial,sans-serif;
+    border-radius: 7px;
+    font-weight: 500;
+    padding: 0 17px;
+    transition: all .12s ease-out;
+    cursor: pointer;
+}
+
+.btn_search:hover
+{
+    background-color: #fae436;
+}
+
+.former
+{
+    width: 530px;
+    border: 2px solid #fc0;
+}
+
+.former:focus {
+    border-color: whitesmoke;
+    box-shadow: 0px 0px 5px 0px rgba(255, 204, 0, 1);
+}
+
+.nav-link
+{
+    font-size: 15px;
+}
+
+.hov:hover
+{
+    color: #fc0;
+}
+
+.cart_icon
+{
+    display: block;
+    padding-bottom: 4px;
+}
+
+.cart_icon:hover
+{
+    color: black;
+}
+
+.info_icon
+{
+    display: block;
+    padding-left: 1px;
+}
+
+.info_icon:hover
+{
+    color: black;
+}
+
+.exit_btn_menu
+{
+    color: black;
+}
+
+.heart_icon
+{
+    display: block;
+    padding-bottom: 4px;
+    margin-left: 16px;
+}
+
+.red_dot
+{
+    position: absolute;
+    top: 7px;
+    background: red;
+    color: white;
+    border-radius: 50%;
+    padding: 1px 5px;
+    font-style: initial;
+    right: 90px;
+    width: 19px;
+}
+
+.logcss
+{
+    display: none;
+}
+
+/* for scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #fc0;
+  }

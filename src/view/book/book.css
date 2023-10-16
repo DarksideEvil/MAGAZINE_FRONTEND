@@ -1,0 +1,92 @@
+.card
+{
+    
+    margin: 10px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.card-img-top
+{
+    width: 100%;
+    padding: 5px;
+}
+
+.favourite_heart
+{
+    display: flex;
+    justify-content: flex-end;
+    font-size: x-large;
+    position: absolute;
+    right: 0;
+    top: -1px;
+    padding: 0;
+    margin: -10px;
+    z-index: 2;
+}
+
+.favourite_heart svg
+{
+    cursor: pointer;
+
+}
+
+.add_cart_btn
+{
+    vertical-align: middle;
+    font-weight: 500 !important;
+    font-size: 16px;
+    line-height: 38px;
+    color: #212121;
+    transition: all .12s ease-out;
+    letter-spacing: 0;
+    background-color: #fc0;
+    border-radius: 7px;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    margin: 0;
+    border: solid transparent;
+    cursor: pointer;
+    height: 40px;
+    padding: 0 16px;
+    border-width: 1px;
+}
+
+.add_cart_btn:hover
+{
+    background-color: #f5c400;
+}
+
+.card-footer
+{
+    background: white;
+    border: none;
+    margin-top: 30px;
+}
+
+.add_book_place
+{
+    display: flex;
+    justify-content: flex-end;
+    margin: 25px 30px;
+}
+
+.add_book
+{
+    cursor: pointer;
+}
+
+.close
+{
+    font-size: xx-large;
+    border: none;
+    background-color: unset;
+}
+
+.empty_books
+{
+    text-align: center;
+}
