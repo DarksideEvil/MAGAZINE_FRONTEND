@@ -1,1 +1,1 @@
-module.exports = "http://localhost:5000/api";
+module.exports = "https://magazine-34up.onrender.com";
