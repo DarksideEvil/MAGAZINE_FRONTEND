@@ -1,1 +1,1 @@
-module.exports = "https://magazine-34up.onrender.com";
+module.exports = "https://magazine-34up.onrender.com/api";
